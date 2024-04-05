@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+@font-face {
+    font-family: 'AnandaBlack' ;
+    src: url(./assets/fonts/AnandaBlack.ttf);
+}
+/* header */
+
+header{
+    display: flex;
+    justify-content:space-between;
+    background-color: #007bff;
+    padding: 10px 20px;
+    align-items: center;
+}
+header h1 {
+    font-size: 'AnandaBlack';
+    color:white
+
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+header nav ul li{
+    margin-left: 20px;
+    color: white;
+}
+header a{
+    text-decoration: none;
+}
+
+/* main */
+
+/* hero */
+.hero {
+    background-image: url(./assets/images/bowling_field.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+.bordure{
+    border: 3px solid white;
+    background-color: black;
+    max-width: 800px;
+}
+.hero h1 {
+    margin-bottom:1%;
+    font-weight: bold;
+    font-size: x-large;       
+}
+.hero p{
+    font-size:larger;
+    margin-bottom: 1%;
+}
+
+/* mesoffres */
+.mesoffres {
+    text-align: center;
+    padding: 50px 20px;
+}
+.mesoffres h2 {
+    font-size:10%;
+    color:#333;
+    margin-bottom: 30px;
+}
+.offre{
+    display:inline-block;
+    background-color: #3054f3;
+    border-radius: 10px;
+    margin: 10px;
+    padding:20px;
+    width: 29%;
+    align-items: center;
+}
+.offre img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.offre h3 {
+    color: #2d20e0;
+    margin-bottom: 10px;
+}
+.offre p {
+    color:#666;
+    margin: bottom 5px;
+}
+
+/* formulaire */
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+}
+#contact h2{
+    color: #333;
+    margin-bottom: 20px;
+    font-size:1%;
+}
+#contact p {
+    margin-bottom: 30px;
+    color: #666;
+    font: size 1%;;
+}
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#contact form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* footer */
+
+footer {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
